@@ -1,11 +1,30 @@
-# stop-and-go examples
-show_running_hosts.sh
+# stop-and-go
 
-startup.sh all-nodes     
+Examples:
+
+show_running_hosts.s
+  Shows all running nodes
+
+startup.sh xeond-nodes
+  Starts all xeond nodes
+
 startup.sh avoton-nodes
-startup.sh avoton3-node
+  Starts all avoton nodes
 
+startup.sh xeond1-nodes
+  Starts xeond1 node
 
-shutdown.sh all-nodes
+startup.sh avoton1-node
+  Starts avoton1 node
+
+shutdown.sh xeond-nodes
+  Stops all xeond nodes
+
 shutdown.sh avoton-nodes
-shutdown.sh avoton3-node
+  Stops all avoton nodes
+
+shutdown.sh xeond1-nodes
+  Stop xeond1 node
+
+shutdown.sh avoton1-node
+  Stops avoton1 node
