@@ -5,6 +5,14 @@ Examples:
 show_running_hosts.s
   Shows all running nodes
 
+startup.sh all-nodes
+  Starts all nodes
+
+shutdown.sh all-nodes
+  Stops all nodes
+
+**********************************
+
 startup.sh xeond-nodes
   Starts all xeond nodes
 
